@@ -1,0 +1,7 @@
+{
+    "playwright.env": {},
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": false,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "typescript.suggest.completeFunctionCalls": true
+}
