@@ -1,0 +1,25 @@
+{
+  "name": "supertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 5000",
+    "test-html": "mocha --timeout 5000 --reporter mochawesome",
+    "test-junit": "mocha --timeout 5000 --reporter mocha-junit-reporter"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/register": "^7.23.7",
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "supertest": "^7.0.0"
+  }
+}
